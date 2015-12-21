@@ -53,12 +53,16 @@ html {
   font-size: 1.1em;
   }
 
-#container, footer {
+.container {
     background:hsla(210, 39%, 100%, 0.75);
-    width:880px;
+    width:980px;
     margin:0 auto;
-    margin-top: 50px;
+    margin-top: -60px;
     padding:20px;
+    word-wrap: break-word;
+    min-height: 500px;
+    box-sizing: border-box ;
+
 }
 header {
     width:900px;
@@ -66,12 +70,10 @@ header {
     margin:0 auto 10px auto;
     
 }
-#container {
-    min-height:1000px;
-    border-radius:5px 5px 0 0;
-}
+
 footer {
     border-radius:0 0 5px 5px;
+
 }
 .widget {
     margin-bottom:20px;
@@ -87,13 +89,25 @@ footer {
 }
 /* Navigation */
 nav {
-    float:left;
+    float: right;
+    position: relative;
+    top: 32px;
 }
+nav ul {
 
+    margin: 0px;
+    padding: 0px;
+}
 nav ul li {
-    display:inline;
-    margin-right:0px;
-    margin-left: 13px;
+    display:inline-block; 
+    margin-right:15px;
+    margin-left: 0px;
+}
+nav ul li:last-child {
+    margin-right: 0;
+    
+
+
 }
 nav ul li a {
   background: #3498db;
@@ -102,12 +116,12 @@ nav ul li a {
   background-image: -ms-linear-gradient(top, #3498db, #2980b9);
   background-image: -o-linear-gradient(top, #3498db, #2980b9);
   background-image: linear-gradient(to bottom, #3498db, #2980b9);
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
+  -webkit-border-radius: 32;
+  -moz-border-radius: 32;
+  border-radius: 34px;
   font-family: League Gothic;
   color: #ffffff;
-  font-size: 16px;
+  font-size: 18px;
   padding: 10px 20px 10px 20px ;
   text-decoration: none;
 }
@@ -140,9 +154,20 @@ aside {
     margin-top:5px;
 }
 /* Footer */
-footer {
+footer  {
     border-top:1px dashed #ddd;
     color:#999;
+    height: 90px;
+    background-color: rgba(255,255,255,0.8);
+    width: 1060px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+    line-height: 80px;
+}
+.row {
+    width: 200px; margin: 0 auto ; 
+    text-align: center;
 }
 /* Misc */
 .clear {
@@ -205,8 +230,7 @@ footer {
   text-decoration: none;
 }
 
-
-
+ 
 #ski {
     width: 450px;
 }

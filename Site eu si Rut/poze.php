@@ -8,6 +8,7 @@ include'includes/overall/header.php';
 	<h4>Cea mai recenta si de altfel cea mai reusita poza (la ski <a href="http://www.superskicavnic.ro/">Cavnic</a>) #teiubesc</h4>
 	<img src="css/images/ski.jpg " id="ski">
 	<br><br>
+	
 
 	
 <?php include'includes/overall/footer.php'; ?>
