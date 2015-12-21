@@ -1,0 +1,218 @@
+/* Resets */
+ul {
+    padding:0;
+    margin:0 0 20px 0;
+    list-style-type:none;
+}
+h1, h2 {
+    padding:0;
+    margin:30px 0 20px 0;
+    font-weight:normal;
+    font-family: League Gothic;
+}
+p {
+    padding:0;
+    margin:0 0 20px 0;
+    font-family: League Gothic;
+}
+a:link, a:visited {
+    text-decoration:none;
+}
+a:hover {
+    text-decoration:none;
+}
+ul li {
+    padding:5px 0;
+}
+ul li input[type="text"], ul li input[type="password"] {
+    width:200px;
+}
+/* Headers */
+h1 {
+    font-size:1.8em;
+    font-family: League Gothic;
+}
+h2 {
+    font-size:1.4em;
+    font-family: League Gothic;
+}
+#logo {
+    width: 330px; 
+    height: 200px; 
+    float: left;
+}
+
+/* Containers */
+html { 
+  background: url(images/fullbackground.jpg) no-repeat center center fixed ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "SmallCaps";
+  font-size: 1.1em;
+  }
+
+#container, footer {
+    background:hsla(210, 39%, 100%, 0.75);
+    width:880px;
+    margin:0 auto;
+    margin-top: 50px;
+    padding:20px;
+}
+header {
+    width:900px;
+    padding:10px;
+    margin:0 auto 10px auto;
+    
+}
+#container {
+    min-height:1000px;
+    border-radius:5px 5px 0 0;
+}
+footer {
+    border-radius:0 0 5px 5px;
+}
+.widget {
+    margin-bottom:20px;
+}
+.widget h2 {
+    margin:0 0 10px 0;
+    padding:0 5px;
+    font-weight:normal;
+    border-bottom:1px solid #ddd;
+}
+.widget .inner {
+    margin:0 10px;
+}
+/* Navigation */
+nav {
+    float:left;
+}
+
+nav ul li {
+    display:inline;
+    margin-right:0px;
+    margin-left: 13px;
+}
+nav ul li a {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: League Gothic;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px ;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+nav ul li a:active {
+    position:relative;
+    top:1px;
+}
+
+nav ul li a.last {
+    border-right:0;
+}
+/* Aside */
+aside {
+    width:260px;
+    float:right;
+    border-left:1px dashed #aaa;
+    padding-left:15px;
+}
+/* Login */
+#login li.link {
+    margin-top:5px;
+}
+/* Footer */
+footer {
+    border-top:1px dashed #ddd;
+    color:#999;
+}
+/* Misc */
+.clear {
+    clear:both;
+}
+
+.smallnote {
+    font-size: 0.8em;
+    margin:0;
+}
+
+#logoutbtn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 8px 14px 7px 14px;
+  text-decoration: none;
+}
+
+#loginbtn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 8px 14px 7px 14px;
+  text-decoration: none;
+}
+
+#registerbtn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 8px 14px 7px 14px;
+  text-decoration: none;
+}
+
+
+
+#ski {
+    width: 450px;
+}
+#contact_hory {
+    width: 300px;
+}
+#contact_rut {
+    width: 200px;
+}
