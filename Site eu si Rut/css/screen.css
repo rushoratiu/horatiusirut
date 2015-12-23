@@ -240,3 +240,37 @@ footer  {
 #contact_rut {
     width: 200px;
 }
+table {
+  color: #333;
+font-family: Helvetica, Arial, sans-serif;
+width: 640px; 
+border-collapse: 
+collapse; border-spacing: 0;
+text-align: center;
+
+}
+td  { 
+border: 1px solid transparent; /* No more visible border */
+height: 30px; 
+transition: all 0.3s;  /* Simple transition for hover effect */
+}
+td {
+background: #FAFAFA;
+text-align: center;
+}
+#comments {
+  text-align: center;
+  position: relative;
+  top: 500px; 
+}
+.row2 div {
+  color: #333;
+  border : 2px solid black;
+  border-spacing: 8px;
+  margin-bottom: 15px;
+  padding: 10px;
+  font-family: Helvetica, Arial, sans-serif;
+  transition: all 0.3s;
+  background: #FAFAFA;
+  height: 20px;
+}
