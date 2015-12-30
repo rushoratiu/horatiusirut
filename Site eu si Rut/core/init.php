@@ -24,24 +24,14 @@ if (logged_in() === true) {
         $text = mysql_real_escape_string($_POST['textarea']); 
         $query="INSERT INTO postari (textfield) VALUES ('$text')";
         mysql_query($query) or die ('Error updating database' . mysql_error());
-    }
+    }	
 // INFORMATIILE SUNT PRINTATE PE SERVER
     $sql = "SELECT textfield FROM postari";
     $result = mysql_query($sql, $conn);
 
-	/* if (mysql_num_rows($result) > 0) {
-    // output data of each row
-    while($row = mysql_fetch_assoc($result)) {
-        echo '<table><tr><td>'."Anonnymus a spus : " . $row["textfield"]."</td></tr></table>"."<br>";
-    }
-}    */
+	
 
-/* else {
-    echo "0 results";
-}
-   */
-
-mysql_close($conn);
+ /*  mysql_close($conn); */
 
 /////////////////////////////////////////
 
